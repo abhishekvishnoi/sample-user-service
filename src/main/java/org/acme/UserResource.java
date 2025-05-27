@@ -31,7 +31,7 @@ public class UserResource {
         user1.setFirstName("Jane");
         user1.setLastName("Doe");
         user1.setEmail("jane.doe@hotmail.com");
-        user1.setPassword("password1");
+        user1.setPassword("password2");
 
         users.add(user);
         users.add(user1);
