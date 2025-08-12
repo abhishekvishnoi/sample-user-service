@@ -28,8 +28,8 @@ public class UserResource {
         user.setPassword("password1");
 
         User user1 = new User() ;
-        user1.setFirstName("Jane");
-        user1.setLastName("Doe");
+        user1.setFirstName("Janett");
+        user1.setLastName("Levis");
         user1.setEmail("jane.doe@hotmail.com");
         user1.setPassword("password2");
 
