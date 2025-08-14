@@ -7,7 +7,7 @@ metadata:
     deployment.kubernetes.io/revision: '1'
     image.openshift.io/triggers: '[{"from":{"kind":"ImageStreamTag","name":"sample-app:latest","namespace":"sample-app"},"fieldPath":"spec.template.spec.containers[?(@.name==\"container\")].image","paused":true}]'
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: sample-app
