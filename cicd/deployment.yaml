@@ -3,9 +3,6 @@ apiVersion: apps/v1
 metadata:
   name: sample-app
   namespace: sample-app
-  annotations:
-    deployment.kubernetes.io/revision: '1'
-    image.openshift.io/triggers: '[{"from":{"kind":"ImageStreamTag","name":"sample-app:latest","namespace":"sample-app"},"fieldPath":"spec.template.spec.containers[?(@.name==\"container\")].image","paused":true}]'
 spec:
   replicas: 1
   selector:
