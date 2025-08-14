@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: container
-          image: 'sample:001'
+          image: 'quay-risluat-quay-quay-enterprise.apps.rajocpuat.sdc.raj.gov.in/risluattest/sample-app:002'
           ports:
             - containerPort: 8080
               protocol: TCP
