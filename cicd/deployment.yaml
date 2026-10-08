@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: container
-          image: 'image-registry.openshift-image-registry.svc:5000/approval-pipeline-test/sample-app:006'
+          image: 'image-registry.openshift-image-registry.svc:5000/approval-pipeline-test/sample-app:007'
           ports:
             - containerPort: 8080
               protocol: TCP
