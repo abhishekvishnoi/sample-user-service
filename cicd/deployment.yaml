@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: container
-          image: 'quay-risluat-quay-quay-enterprise.apps.rajocpuat.sdc.raj.gov.in/risluattest/sample-app:002'
+          image: 'image-registry.openshift-image-registry.svc:5000/approval-pipeline-test/sample-app:006'
           ports:
             - containerPort: 8080
               protocol: TCP
